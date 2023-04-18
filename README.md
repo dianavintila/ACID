@@ -46,7 +46,7 @@ git submodule update
 ```
 cd ~/Desktop/collusion_potential_detector/androguard-acid
 
-sudo python setup.py install
+sudo python2 setup.py install
 ```
 
 ### Install to system directory
