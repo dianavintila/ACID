@@ -68,7 +68,7 @@ The first step is to generate the collusion facts for a set of apps. The tool wi
 For exact usage of the tool run:
 
 ```
-generate_facts --help
+python2 generate_facts.py --help
 ```
 
 This tool generates various output files per analysed apk file:
@@ -84,7 +84,7 @@ The Prolog progam is generated after the collusion fact directories have been cr
 For exact usage of the tool run:
 
 ```
-generate_prolog --help
+python2 generate_prolog.py --help
 ```
 
 ### Step 3: Detection of collusion 
@@ -93,7 +93,7 @@ The final step is to execute the Prolog program generated in Step 2. A python pr
 For exact usage of the tool run:
 
 ```
-detect_collusion --help
+python2 detect_collusion.py --help
 ```
 
 This tool outputs a list of all collusion app sets found in the `prolog_file`. It includes the apps in the set, and the channels used to communicate.
