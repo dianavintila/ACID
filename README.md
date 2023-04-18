@@ -5,10 +5,12 @@ app communication and used permissions. Extracted facts and a set of Prolog rule
 potential between the apps in the analysed set. The tool is split in three components: the fact generator, the Prolog generator and the detection tool (that executed the Prolog program). These programs should be run in sequence.
 
 ## Requirements
-
+* Pyhton
 Requires Python 2.7. As there might be a Python 3 version already present on the laptop, it is recommended to explicitly mention the Python 2 version when running the scripts.
+* Androguard
 This project relies on Androguard to execute most of the analysis tasks. Specifically, we use Androguard 2.0. That version has a minor bug in 
 function call inside the `dvm.py`. This project links directly (using git submodules) to a version with that bug fixed so you don't need to change anything
+* Prolog
 Additionally, the tool uses the command line SWI-Prolog implementation.
 
 ## Installation
