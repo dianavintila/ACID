@@ -13,4 +13,6 @@ python2 generate_prolog.py -v
 3. Detect collusion only for app sets that start with a specific app package:
 ```
 python2 detect_collusion.py -a APP_PACKAGE prolog_program_filename collusion_kind
+
+collusion_kind: colluding_info, colluding_money1, colluding_money2, colluding_service, colluding_camera, colluding_accounts, colluding_sms
 ```
