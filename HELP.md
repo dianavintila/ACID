@@ -5,6 +5,7 @@
 1. Generate collusion facts for specific APK file:
 ```
 python2 generate_facts.py -v -a /path/to/app.apk
+sudo python2 generate_facts.py -d /home/kali/Desktop/apk -v 
 ```
 2. Generate prolog program using previously generated collusion facts 
 ```
